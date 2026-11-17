@@ -30,4 +30,7 @@ Dann http://localhost:8000 öffnen.
 
 ## Veröffentlichen
 
-GitHub → Settings → Pages → Source: «Deploy from a branch», Branch `main`, Ordner `/ (root)`.
+Jeder Push auf `main` veröffentlicht die Seite automatisch (Workflow `.github/workflows/pages.yml`).
+Falls es nicht klappt: GitHub → Settings → Pages → Source: «GitHub Actions».
+
+Adresse: https://schlaef.github.io/test_verding/
